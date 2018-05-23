@@ -1,0 +1,1 @@
+C:\Ruby22-x64\bin\sass.bat --style compressed --sourcemap=none --no-cache style.scss style.css

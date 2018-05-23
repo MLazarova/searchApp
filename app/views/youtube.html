@@ -1,0 +1,7 @@
+<div class="total-results">Total results: {{youtubeResults.pageInfo.totalResults}}</div>
+<ul class="list-results">
+	<li ng-repeat="item in youtubeResults.items">
+		<img class="thumbnail" ng-src="{{item.snippet.thumbnails.high.url}}"/>
+		<div class="text">{{item.snippet.title}}</div>
+	</li>
+</ul>

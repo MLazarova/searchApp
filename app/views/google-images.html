@@ -1,0 +1,7 @@
+<div class="total-results">Total results: {{googleImgResults.searchInformation.formattedTotalResults}}</div>
+<ul class="list-results">
+	<li ng-repeat="item in googleImgResults.items">
+		<img class="thumbnail" ng-src="{{item.image.thumbnailLink}}"/>
+		<div class="text">{{item.title}}</div>
+	</li>
+</ul>

@@ -1,0 +1,13 @@
+{
+  "name": "searchapp",
+  "description": "Angular app",
+  "repository": "",
+  "license": "MIT",
+  "devDependencies": {},
+  "dependencies": {
+    "http-server": "^0.11.1"
+  },
+  "scripts": {
+    "build-css": "node-sass --include-path scss assets/CSS/style.scss   assets/CSS/style.css"
+  }
+}
